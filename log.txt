@@ -1,1 +1,127 @@
 This is for my homework.
+
+
+farha@DESKTOP-D4M8B3E MINGW64 ~
+$ ls
+'3D Objects'/             NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.0.regtrans-ms
+ AppData/                 NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.1.regtrans-ms
+'Application Data'@       NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.2.regtrans-ms
+ Contacts/                NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.blf
+ Cookies@                 NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ Desktop/                 NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ Documents/               NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ Downloads/               ntuser.ini
+ eclipse-workspace/       OneDrive/
+ Favorites/               Pictures/
+ IdeaProjects/            PrintHood@
+ IntelGraphicsProfiles/   PycharmProjects/
+ Links/                   Recent@
+'Local Settings'@         sadafExperiment.pem
+ MicrosoftEdgeBackups/   'Saved Games'/
+ Music/                   Searches/
+'My Documents'@           SendTo@
+ NetHood@                'Start Menu'@
+ NTUSER.DAT               Templates@
+ ntuser.dat.LOG1          Videos/
+ ntuser.dat.LOG2
+
+farha@DESKTOP-D4M8B3E MINGW64 ~
+$ cd Documents/
+
+farha@DESKTOP-D4M8B3E MINGW64 ~/Documents
+$ ls
+ B2002/   desktop.ini   mentoringSession/  'My Music'@  'My Pictures'@  'My Videos'@  'Sound recordings'/   Zoom/
+
+farha@DESKTOP-D4M8B3E MINGW64 ~/Documents
+$ mkdir gitHomeWork
+
+farha@DESKTOP-D4M8B3E MINGW64 ~/Documents
+$ cd gitHomeWork/
+
+farha@DESKTOP-D4M8B3E MINGW64 ~/Documents/gitHomeWork
+$ git log
+fatal: not a git repository (or any of the parent directories): .git
+
+farha@DESKTOP-D4M8B3E MINGW64 ~/Documents/gitHomeWork
+$ touch log.txt
+
+farha@DESKTOP-D4M8B3E MINGW64 ~/Documents/gitHomeWork
+$ nano log.txt
+
+farha@DESKTOP-D4M8B3E MINGW64 ~/Documents/gitHomeWork
+$ more log.txt
+bash: more: command not found
+
+farha@DESKTOP-D4M8B3E MINGW64 ~/Documents/gitHomeWork
+$ cat log.txt
+This is for my homework.
+
+farha@DESKTOP-D4M8B3E MINGW64 ~/Documents/gitHomeWork
+$ git init
+Initialized empty Git repository in C:/Users/farha/Documents/gitHomeWork/.git/
+
+farha@DESKTOP-D4M8B3E MINGW64 ~/Documents/gitHomeWork (master)
+$ ls -al
+total 9
+drwxr-xr-x 1 farha 197609  0 Jun 28 21:34 ./
+drwxr-xr-x 1 farha 197609  0 Jun 28 21:30 ../
+drwxr-xr-x 1 farha 197609  0 Jun 28 21:34 .git/
+-rw-r--r-- 1 farha 197609 25 Jun 28 21:34 log.txt
+
+farha@DESKTOP-D4M8B3E MINGW64 ~/Documents/gitHomeWork (master)
+$ git add .
+warning: LF will be replaced by CRLF in log.txt.
+The file will have its original line endings in your working directory
+
+farha@DESKTOP-D4M8B3E MINGW64 ~/Documents/gitHomeWork (master)
+$ git commit -m "Version1.0"
+[master (root-commit) 660c33f] Version1.0
+ 1 file changed, 1 insertion(+)
+ create mode 100644 log.txt
+
+farha@DESKTOP-D4M8B3E MINGW64 ~/Documents/gitHomeWork (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+farha@DESKTOP-D4M8B3E MINGW64 ~/Documents/gitHomeWork (master)
+$ git remote add origin https://github.com/mf-sadaf/gitHomeWork.git
+
+farha@DESKTOP-D4M8B3E MINGW64 ~/Documents/gitHomeWork (master)
+$ git push -u master
+fatal: 'master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+farha@DESKTOP-D4M8B3E MINGW64 ~/Documents/gitHomeWork (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 236 bytes | 118.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/mf-sadaf/gitHomeWork.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+farha@DESKTOP-D4M8B3E MINGW64 ~/Documents/gitHomeWork (master)
+$ nano log.txt
+
+farha@DESKTOP-D4M8B3E MINGW64 ~/Documents/gitHomeWork (master)
+$ '3D Objects'/             NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.0.regtrans-ms
+farha@DESKTOP-D4M8B3E MINGW64 ~
+ AppData/     bash: farha@DESKTOP-D4M8B3E: command not found
+
+farha@DESKTOP-D4M8B3E MINGW64 ~/Documents/gitHomeWork (master)
+$ $ ls
+bash: $: command not found
+
+farha@DESKTOP-D4M8B3E MINGW64 ~/Documents/gitHomeWork (master)
+$ '3D Objects'/             NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.0.regtrans-ms
+bash: 3D Objects/: No such file or directory
+
+farha@DESKTOP-D4M8B3E MINGW64 ~/Documents/gitHomeWork (master)
+$
+
+
